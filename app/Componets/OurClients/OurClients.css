@@ -25,7 +25,6 @@
   -webkit-animation: fadeInLeft 1s ease-out forwards;
 }
 
-/* Hover effect for the button */
 .card-button {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
