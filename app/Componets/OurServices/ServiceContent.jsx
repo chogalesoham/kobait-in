@@ -113,9 +113,14 @@ const ServiceContent = ({ activeTab }) => {
         );
       case "content":
         return (
-          <h3 className="text-2xl font-bold text-[#D91656] mb-6">
-            Content Marketing
-          </h3>
+          <>
+            <h3 className="text-2xl font-bold text-[#D91656] mb-6">
+              Content Marketing
+            </h3>
+            <div className="w-full h-48 sm:h-96 bg-[#1F2937] p-4 rounded-lg shadow-lg">
+              <Line data={chartData} options={chartOptions} />
+            </div>
+          </>
         );
       case "social":
         return (
