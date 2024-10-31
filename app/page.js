@@ -5,6 +5,7 @@ import OurServices from "./Componets/OurServices/OurServices";
 import OurClients from "./Componets/OurClients/OurClients";
 import GetInTouch from "./Componets/GetInTouch/GetInTouch";
 import BlogSlider from "./Componets/BlogSlider/BlogSlider";
+import Footer from "./Componets/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <OurClients />
       <GetInTouch />
       <BlogSlider />
+      <Footer />
     </>
   );
 };
