@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"; // You'll need to install react-icons
+import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "@/public/logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,11 +17,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <img
-                className="h-8 w-auto"
-                src="/path-to-your-logo.svg"
-                alt="Logo"
-              />
+              <img className="h-8 w-auto" src={logo} alt="Logo" />
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <a
