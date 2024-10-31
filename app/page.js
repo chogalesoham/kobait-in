@@ -4,6 +4,7 @@ import HeroSection from "./Componets/HeroSection/HeroSection";
 import OurServices from "./Componets/OurServices/OurServices";
 import OurClients from "./Componets/OurClients/OurClients";
 import GetInTouch from "./Componets/GetInTouch/GetInTouch";
+import BlogSlider from "./Componets/BlogSlider/BlogSlider";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <OurServices />
       <OurClients />
       <GetInTouch />
+      <BlogSlider />
     </>
   );
 };
