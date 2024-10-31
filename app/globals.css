@@ -24,3 +24,19 @@ main {
     scroll-snap-align: start;
   }
 }
+
+p {
+  text-transform: capitalize;
+}
+h1 {
+  text-transform: capitalize;
+}
+h2 {
+  text-transform: capitalize;
+}
+h3 {
+  text-transform: capitalize;
+}
+h4 {
+  text-transform: capitalize;
+}
