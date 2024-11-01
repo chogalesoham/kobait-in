@@ -18,7 +18,7 @@ const OurServices = () => {
     <section className="flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-5 sm:py-24 w-full bg-[#1D2731]">
       <div className="flex flex-col w-full container mx-auto">
         <h1 className="text-6xl font-extrabold text-center mb-16 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text animate-fade-in-up">
-          Our Clients
+          Our Services
         </h1>
 
         <div className="flex flex-col lg:flex-row w-full gap-8">
