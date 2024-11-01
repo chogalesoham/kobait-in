@@ -111,6 +111,10 @@ const OurClients = () => {
               />
             ))}
           </div>
+
+          <button className=" py-4 px-8 border text-2xl mt-12 rounded-lg bg-[#00000039] hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+            View More
+          </button>
         </div>
       </section>
     </main>
