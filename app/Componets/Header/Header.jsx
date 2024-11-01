@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import "./Header.css";
+import Link from "next/link";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,17 +51,46 @@ function Header() {
           id="navbar-solid-bg"
         >
           <ul className="flex flex-col justify-center h-70 items-center font-medium mt-4 rounded-lg bg-pink-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
-            {["Home", "Services", "Pricing", "Contact"].map((item) => (
-              <li key={item}>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-pink-600 my-1 text-xl rounded hover:bg-pink-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0"
-                  aria-current={item === "Home" ? "page" : undefined}
-                >
-                  {item}
-                </a>
-              </li>
-            ))}
+            <li>
+              <Link
+                href="/"
+                className="block py-2 px-3 text-pink-600 my-1 text-xl rounded hover:bg-pink-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="block py-2 px-3 text-pink-600 my-1 text-xl rounded hover:bg-pink-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0"
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className="block py-2 px-3 text-pink-600 my-1 text-xl rounded hover:bg-pink-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className="block py-2 px-3 text-pink-600 my-1 text-xl rounded hover:bg-pink-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0"
+              >
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className="block py-2 px-3 text-pink-600 my-1 text-xl rounded hover:bg-pink-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0"
+              >
+                Contact Us
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

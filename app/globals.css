@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  position: relative;
+}
+
 main {
   @apply grid h-screen overflow-auto scroll-snap-y;
 }
