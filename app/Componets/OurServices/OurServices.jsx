@@ -15,11 +15,12 @@ const OurServices = () => {
   ];
 
   return (
-    <section className="flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-5 sm:py-24 w-full bg-slate-100">
-      <div className="flex flex-col max-w-full w-full lg:w-[1200px]">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#D91656] mb-12 text-center">
-          Our Services
-        </h2>
+    <section className="flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-5 sm:py-24 w-full bg-[#1D2731]">
+      <div className="flex flex-col max-w-full w-full ">
+        <h1 className="text-6xl font-extrabold text-center mb-16 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text animate-fade-in-up">
+          Our Clients
+        </h1>
+
         <div className="flex flex-col lg:flex-row w-full gap-8">
           <ServiceTabs
             services={services}

@@ -1,132 +1,136 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-);
 
 const ServiceContent = ({ activeTab }) => {
   const chartData = {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-    datasets: [
-      {
-        label: "Organic Traffic",
-        data: [10, 30, 60, 80, 90, 100],
-        borderColor: "#D91656",
-        backgroundColor: "rgba(217, 22, 86, 0.5)",
-        tension: 0.4,
-      },
-      {
-        label: "Conversions",
-        data: [5, 15, 35, 50, 70, 85],
-        borderColor: "#FEF9F2",
-        backgroundColor: "rgba(254, 249, 242, 0.5)",
-        tension: 0.4,
-      },
-      {
-        label: "ROI",
-        data: [2, 10, 25, 45, 65, 90],
-        borderColor: "#1F2937",
-        backgroundColor: "rgba(31, 41, 55, 0.5)",
-        tension: 0.4,
-      },
-    ],
-  };
-
-  const chartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        position: "top",
-        labels: {
-          color: "#FFFFFF",
-        },
-      },
-      title: {
-        display: true,
-        text: "SEO Performance Growth",
-        color: "#FFFFFF",
-        font: {
-          size: 16,
-        },
-      },
-    },
-    scales: {
-      x: {
-        grid: {
-          color: "rgba(255, 255, 255, 0.1)",
-        },
-        ticks: {
-          color: "#FFFFFF",
-        },
-      },
-      y: {
-        grid: {
-          color: "rgba(255, 255, 255, 0.1)",
-        },
-        ticks: {
-          color: "#FFFFFF",
-        },
-      },
-    },
   };
 
   const getContent = () => {
     switch (activeTab) {
       case "seo":
         return (
-          <>
-            <h3 className="text-2xl font-bold text-[#D91656] mb-6">
-              Search Engine Optimization
-            </h3>
-            <p className="text-slate-400 mb-8">
-              Our SEO services help improve your website's visibility, driving
-              more traffic and conversions.
-            </p>
-            <div className="w-full h-48 sm:h-96 bg-[#1F2937] p-4 rounded-lg shadow-lg">
-              <Line data={chartData} options={chartOptions} />
+          <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
+            <div className="w-full lg:w-[50%]">
+              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+                Search Engine Optimization
+              </h3>
+              <p className="text-slate-400 mb-8 text-lg">
+                Are you flitting from one digital marketing agency to another in
+                search of that tailor-made Search Engine Optimization (SEO) plan
+                that delivers your business goals? Look no further. Your search
+                for the best digital marketing agency ends here - with Kobait.
+              </p>
+              <p className="text-slate-400 mb-8 text-lg">
+                At Kobait, we don’t just focus on keywords. We focus on the big
+                picture: bettering your page authority on search engines. This
+                means directing more of the right kind of traffic to your site.
+                In a nutshell? Not just more visits but visits that convert.
+                Here’s what we offer:
+              </p>
             </div>
-          </>
+            <div className="w-full lg:w-[50%] h-full sm:h-[400px] lg:h-[500px] bg-transparent rounded-lg p-5">
+              <video
+                src="/video/video3.mp4"
+                type="video/mp4"
+                autoPlay
+                muted
+                loop
+                className="w-full h-full rounded-lg object-contain"
+              ></video>
+            </div>
+          </div>
         );
       case "ppc":
         return (
-          <h3 className="text-2xl font-bold text-[#D91656] mb-6">
-            Pay-Per-Click Advertising
-          </h3>
+          <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
+            <div className="w-full lg:w-[50%]">
+              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+                Pay-Per Click Advertising
+              </h3>
+              <p className="text-slate-400 mb-8 text-lg">
+                Are you flitting from one digital marketing agency to another in
+                search of that tailor-made Search Engine Optimization (SEO) plan
+                that delivers your business goals? Look no further. Your search
+                for the best digital marketing agency ends here - with Kobait.
+              </p>
+              <p className="text-slate-400 mb-8 text-lg">
+                At Kobait, we don’t just focus on keywords. We focus on the big
+                picture: bettering your page authority on search engines. This
+                means directing more of the right kind of traffic to your site.
+                In a nutshell? Not just more visits but visits that convert.
+                Here’s what we offer:
+              </p>
+            </div>
+            <div className="w-full lg:w-[50%] h-full sm:h-[400px] lg:h-[500px] bg-transparent rounded-lg p-5">
+              <video
+                src="/video/video4.mp4"
+                type="video/mp4"
+                autoPlay
+                muted
+                loop
+                className="w-full h-full rounded-lg object-contain"
+              ></video>
+            </div>
+          </div>
         );
       case "content":
         return (
-          <>
-            <h3 className="text-2xl font-bold text-[#D91656] mb-6">
-              Content Marketing
-            </h3>
-            <div className="w-full h-48 sm:h-96 bg-[#1F2937] p-4 rounded-lg shadow-lg">
-              <Line data={chartData} options={chartOptions} />
+          <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
+            <div className="w-full lg:w-[50%]">
+              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+                Content Marketing
+              </h3>
+              <p className="text-slate-400 mb-8 text-lg">
+                We excel in delivering top-notch digital marketing services that
+                harness the potential of social media platforms. Our strategic
+                approach ensures effective audience engagement, heightened brand
+                awareness, and substantial expansion of your online presence.
+                With a focus on achieving tangible results, our result-driven
+                social media strategy is tailored to help you meet and surpass
+                your business objectives.
+              </p>
             </div>
-          </>
+            <div className="w-full lg:w-[50%] h-full sm:h-[400px] lg:h-[500px] bg-transparent rounded-lg p-5">
+              <video
+                src="/video/video2.mp4"
+                type="video/mp4"
+                autoPlay
+                muted
+                loop
+                className="w-full h-full rounded-lg"
+              ></video>
+            </div>
+          </div>
         );
       case "social":
         return (
-          <h3 className="text-2xl font-bold text-[#D91656] mb-6">
-            Social Media Marketing
-          </h3>
+          <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
+            <div className="w-full lg:w-[50%]">
+              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+                Social Media Marketing
+              </h3>
+              <p className="text-slate-400 mb-8 text-lg">
+                We excel in delivering top-notch digital marketing services that
+                harness the potential of social media platforms. Our strategic
+                approach ensures effective audience engagement, heightened brand
+                awareness, and substantial expansion of your online presence.
+                With a focus on achieving tangible results, our result-driven
+                social media strategy is tailored to help you meet and surpass
+                your business objectives.
+              </p>
+            </div>
+            <div className="w-full lg:w-[50%] h-full sm:h-[400px] lg:h-[500px] bg-transparent rounded-lg p-5">
+              <video
+                src="/video/video1.mp4"
+                type="video/mp4"
+                autoPlay
+                muted
+                loop
+                className="w-full h-full rounded-lg"
+              ></video>
+            </div>
+          </div>
         );
       default:
         return null;

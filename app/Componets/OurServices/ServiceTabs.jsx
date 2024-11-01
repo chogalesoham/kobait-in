@@ -6,10 +6,10 @@ const ServiceTabs = ({ services, activeTab, setActiveTab }) => {
       {services.map((service) => (
         <button
           key={service.id}
-          className={`px-6 py-3 text-sm sm:text-base font-medium rounded-lg transition-all transform hover:scale-105 ${
+          className={`px-4 py-6 text-xl sm:text-base font-medium rounded-lg transition-all transform hover:scale-105 ${
             activeTab === service.id
-              ? "bg-[#D91656] text-[#FFFFFF] shadow-lg"
-              : "bg-[#FEF9F2] text-[#1F2937] hover:bg-[#D91656] hover:text-[#FFFFFF]"
+              ? "bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-[#FFFFFF] shadow-lg"
+              : "bg-[#FEF9F2] text-[#1F2937] hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:text-[#FFFFFF]"
           }`}
           onClick={() => setActiveTab(service.id)}
         >
