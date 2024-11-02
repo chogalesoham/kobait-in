@@ -8,8 +8,8 @@ const ServiceTabs = ({ services, activeTab, setActiveTab }) => {
           key={service.id}
           className={`px-4 py-6 text-xl sm:text-base font-medium rounded-lg transition-all transform hover:scale-105 ${
             activeTab === service.id
-              ? "bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-[#FFFFFF] shadow-lg"
-              : "bg-[#FEF9F2] text-[#1F2937] hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:text-[#FFFFFF]"
+              ? " bg-[#ff3333] text-[#FFFFFF] shadow-lg"
+              : "bg-[#FEF9F2] text-[#1F2937] hover:bg-[#ff3333] hover:text-[#FFFFFF]"
           }`}
           onClick={() => setActiveTab(service.id)}
         >
