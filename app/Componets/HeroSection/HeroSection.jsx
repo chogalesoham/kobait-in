@@ -27,9 +27,9 @@ const HeroSection = () => {
       </div>
 
       {/* Client logos section */}
-      <div className=" bg-gradient-to-r from-[#FAA900] via-[#ED1313] to-[#D54AFF] py-8 sm:py-10">
+      <div className=" bg-[#ff3333] py-8 sm:py-10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-center text-slate-200 font-semibold mb-6 text-lg sm:text-xl">
+          <h3 className="text-center text-slate-200 font-bold mb-6 text-xl sm:text-2xl">
             Trusted by over 50 companies ...
           </h3>
           <ClientLogos />

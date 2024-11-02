@@ -11,10 +11,10 @@ const HeroContent = () => {
         competitors with our comprehensive SEO platform.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
-        <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105 text-sm sm:text-base">
+        <button className="bg-[#ff3333] hover:bg-[#fff] hover:text-[#ff3333] hover:border-2 border-[#ff3333]  text-white font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105 text-sm sm:text-base">
           Start free trial
         </button>
-        <button className="bg-white text-pink-500 font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full border-2 border-pink-500 hover:bg-pink-50 transition duration-300 ease-in-out transform hover:scale-105 text-sm sm:text-base">
+        <button className="bg-white text-[#ff3333] font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full border-2 border-[#ff3333] hover:bg-[#ff3333] hover:text-white transition duration-300 ease-in-out transform hover:scale-105 text-sm sm:text-base">
           Schedule a demo
         </button>
       </div>

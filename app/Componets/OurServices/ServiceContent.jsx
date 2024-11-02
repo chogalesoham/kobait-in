@@ -12,7 +12,7 @@ const ServiceContent = ({ activeTab }) => {
         return (
           <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
             <div className="w-full lg:w-[50%]">
-              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+              <h3 className="text-4xl xl:text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
                 Search Engine Optimization
               </h3>
               <p className="text-slate-400 mb-8 text-lg">
@@ -45,7 +45,7 @@ const ServiceContent = ({ activeTab }) => {
         return (
           <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
             <div className="w-full lg:w-[50%]">
-              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+              <h3 className="text-4xl xl:text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
                 Pay-Per Click Advertising
               </h3>
               <p className="text-slate-400 mb-8 text-lg">
@@ -78,7 +78,7 @@ const ServiceContent = ({ activeTab }) => {
         return (
           <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
             <div className="w-full lg:w-[50%]">
-              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+              <h3 className="text-4xl xl:text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
                 Content Marketing
               </h3>
               <p className="text-slate-400 mb-8 text-lg">
@@ -107,7 +107,7 @@ const ServiceContent = ({ activeTab }) => {
         return (
           <div className="flex flex-col lg:flex-row py-6 space-y-6 lg:space-y-0 lg:space-x-6">
             <div className="w-full lg:w-[50%]">
-              <h3 className="text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
+              <h3 className="text-4xl xl:text-6xl leading-snug text-white font-extrabold line-clamp-2 mb-6">
                 Social Media Marketing
               </h3>
               <p className="text-slate-400 mb-8 text-lg">

@@ -4,7 +4,7 @@ import aboutImg from "@/app/images/about.webp";
 const AboutHeroSection = () => {
   return (
     <div className=" pt-20 bg-[#1D2731]">
-      <div className=" py-5 flex items-center justify-center flex-col  bg-gradient-to-r from-[#FAA900] via-[#ED1313] to-[#D54AFF]">
+      <div className=" py-10 flex items-center justify-center flex-col  bg-[#ff3333]">
         <div className=" container mx-auto">
           <h1 className="text-4xl lg:text-5xl font-extrabold text-center m-0 text-white py-4 pl-6">
             About Kobait

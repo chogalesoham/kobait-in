@@ -59,11 +59,11 @@ const BlogSlider = () => {
 
   const handleResize = () => {
     if (window.innerWidth >= 1280) {
-      setVisibleItems(3); // 3 items on large screens
+      setVisibleItems(3);
     } else if (window.innerWidth >= 768) {
-      setVisibleItems(2); // 2 items on medium screens
+      setVisibleItems(2);
     } else {
-      setVisibleItems(1); // 1 item on small screens
+      setVisibleItems(1);
     }
   };
 
@@ -89,7 +89,7 @@ const BlogSlider = () => {
     <div className="relative w-full mx-auto py-8 px-4 bg-[#1d2731] pb-12 ">
       <div className="container mx-auto">
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-4xl lg:text-5xl font-extrabold text-center m-0 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text py-4 pl-6">
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-center m-0 text-[#ff3333] py-4 pl-6">
             Our Blog
           </h2>
           <div className="flex items-center gap-4 pr-6">

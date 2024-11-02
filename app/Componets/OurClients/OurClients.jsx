@@ -96,7 +96,7 @@ const OurClients = () => {
     <main className="h-auto overflow-auto snap-y">
       <section className="bg-[#1c0c5b] text-white p-8 snap-start flex items-center justify-center pb-24">
         <div className="w-full text-center mx-auto">
-          <h1 className="text-6xl font-extrabold text-center my-8 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text animate-fade-in-up">
+          <h1 className="text-6xl font-extrabold text-center my-8 text-[#ff3333] animate-fade-in-up">
             Our Clients
           </h1>
 
@@ -112,7 +112,7 @@ const OurClients = () => {
             ))}
           </div>
 
-          <button className=" py-4 px-8 border text-2xl mt-12 rounded-lg bg-[#00000039] hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+          <button className=" py-4 px-8 border text-2xl mt-12 rounded-lg bg-[#00000039] hover:bg-[#ff3333]">
             View More
           </button>
         </div>
