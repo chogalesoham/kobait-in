@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <nav className="fixed w-full z-10 bg-slate-50 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] shadow-lg">
+    <nav className="fixed w-full z-10 bg-[#FEF9F2] bg-gradient-to-r from-[#F9CEB7] to-[#ADD1F2] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] shadow-lg">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
